@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bootstrap 101</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script>
+    // Toggle for width display
+    var showWidth = 1;
+    if (showWidth === 1) {
+      $(document).ready(function() {
+        $(window).resize(function() {
+          var width = $(window).width();
+          document.getElementById('output_width').innerHTML="Window Width: " + width.toString();
+        });
+      });
+    }
+
+    </script>
+  </head>
+  <body>
+    <div id="output_width"></div>
+      <div id="container">
+        <header class="main-header">
+          <img id="logo" src="images/logo.png" alt="ResProject">
+          <nav class="main-nav">
+            <ul>
+              <li><a class="active" href="#"></a>Home</li>
+              <a href="#" class="active"><li>Home</li></a>
+              <li><a href="#"></a>Learn</li>
+              <li><a href="#"></a>Brainstorm</li>
+              <li><a href="#"></a>Collaborate</li>
+              <li><a href="#"></a>Teach</li>
+              <li><a href="#"></a>Create</li>
+            </ul>
+          </nav>
+        </header>
+        <div id="main">
+          <div id="content">
+            <article class="art1">
+              <header class="art-header">
+                <h2 class="title"><a href="#">First Post</a></h2>
+                <span>Created By: Matt Parman on Feb 17, 2016</span>
+              </header>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sagittis mi sit amet scelerisque sagittis. Fusce vehicula, libero vitae venenatis rutrum, nisl tellus mattis nisl, sed placerat orci nisi sed ex. Aliquam id tellus nec mauris aliquam blandit quis vel dolor. Integer sagittis velit est, nec auctor felis laoreet nec. Nunc ut sagittis turpis. Pellentesque bibendum ut elit quis dignissim. Nulla luctus vel metus eu molestie. Sed nec neque ut nunc vehicula varius. Pellentesque venenatis nulla elit. Curabitur dapibus sagittis mauris vel molestie. Praesent ut erat rutrum, suscipit felis a, rutrum nunc.</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sagittis mi sit amet scelerisque sagittis. Fusce vehicula, libero vitae venenatis rutrum, nisl tellus mattis nisl, sed placerat orci nisi sed ex. Aliquam id tellus nec mauris aliquam blandit quis vel dolor. Integer sagittis velit est, nec auctor felis laoreet nec. Nunc ut sagittis turpis. Pellentesque bibendum ut elit quis dignissim. Nulla luctus vel metus eu molestie. Sed nec neque ut nunc vehicula varius. Pellentesque venenatis nulla elit. Curabitur dapibus sagittis mauris vel molestie. Praesent ut erat rutrum, suscipit felis a, rutrum nunc.</p>
+              <a href="#" class="readmore">Read More</a>
+            </article>
+            <article class="art2">
+              <header class="art-header">
+                <h2 class="title"><a href="#">Second Post</a></h2>
+                <span>Created By: Matt Parman on Feb 17, 2016</span>
+              </header>
+              <p>Maecenas finibus egestas augue vel lacinia. Ut eget nunc ut quam aliquam congue. Vivamus a feugiat tortor. Donec sit amet dapibus arcu. Duis facilisis enim mi, et fringilla nunc faucibus gravida. Ut odio dui, iaculis quis erat sed, auctor feugiat massa. Vivamus ante dui, tincidunt et molestie quis, consequat rutrum justo.</p>
+              <p>Maecenas finibus egestas augue vel lacinia. Ut eget nunc ut quam aliquam congue. Vivamus a feugiat tortor. Donec sit amet dapibus arcu. Duis facilisis enim mi, et fringilla nunc faucibus gravida. Ut odio dui, iaculis quis erat sed, auctor feugiat massa. Vivamus ante dui, tincidunt et molestie quis, consequat rutrum justo.</p>
+              <a href="#" class="readmore">Read More</a>
+            </article>
+          </div>
+          <aside id="sidebar">
+            <div class="block">
+              <h2>Top Sidebar</h2>
+              <p>Nam a pretium est. Praesent egestas semper ex at congue. Cras at lorem ac ex pellentesque luctus id in tortor.</p>
+            </div>
+            <div class="block">
+              <h2>Mid Sidebar</h2>
+              <p>Nam a pretium est. Praesent egestas semper ex at congue.</p>
+            </div>
+            <div class="block">
+              <h2>Bottom Sidebar</h2>
+              <p>Praesent egestas semper ex at congue. Cras at lorem ac ex pellentesque luctus id in tortor.</p>
+            </div>
+          </aside>
+        </div>
+        <div class="clr"></div>
+        <footer>
+          <p>Copyright &copy; 2016</p>
+        </footer>
+      </div>
+    
+
+  </body>
+</html>

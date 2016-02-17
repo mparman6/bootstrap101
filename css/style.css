@@ -1,0 +1,31 @@
+body {
+  background: #ececec url(../images/sos.png) repeat;
+  font-size: 87.5%;
+  font-family: arial, sans-serif;
+  color: #666666;
+  line-height: 1.7em;
+  text-align: left;
+}
+
+#container {
+  width: 80%;
+  margin: 0 auto;
+  overflow: auto;
+  clear: both;
+}
+
+.main-header #logo {
+  width: 45%;
+  margin: 10px 0;
+}
+
+#content {
+  width: 70%;
+  float: left;
+  overflow: auto;
+}
+
+#sidebar {
+  width: 30%;
+  float: left;
+}
